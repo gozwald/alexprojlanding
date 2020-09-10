@@ -86,7 +86,8 @@ body {
 
 .gallery-controls-previous {
   position: absolute;
-  top: 46%;
+  transform: translate(-50%, -50%);
+  top: 50%;
   left: 7%;
 }
 
@@ -100,7 +101,8 @@ body {
 
 .gallery-controls-next {
   position: absolute;
-  top: 46%;
+  transform: translate(-50%, -50%);
+  top: 50%;
   right: 7%;
 }
 
