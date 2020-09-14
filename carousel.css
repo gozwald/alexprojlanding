@@ -8,9 +8,9 @@ body {
 
 .logo {
   position: absolute;
-  top: 5%;
-  left: 5%;
-  width: 100px;
+  top: 50px;
+  left: 50px;
+  width: 120px;
 }
 
 .logo img {
@@ -57,7 +57,7 @@ body {
   height: 600px;
   opacity: 1;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 320px;
   z-index: 2;
 }
@@ -72,25 +72,25 @@ body {
 
 .gallery-item.gallery-item-previous {
   left: 30%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   filter: brightness(0.5);
 }
 
 .gallery-item.gallery-item-next {
   left: 70%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   filter: brightness(0.5);
 }
 
 .gallery-item.gallery-item-first {
   left: 15%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   filter: brightness(0.3);
 }
 
 .gallery-item.gallery-item-last {
   left: 85%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   filter: brightness(0.3);
 }
 
