@@ -1,11 +1,15 @@
 body {
   margin: 0;
+  background-image: url("./images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
   position: absolute;
   top: 5%;
-  left: 10%;
+  left: 5%;
   width: 100px;
 }
 
@@ -20,10 +24,6 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-image: url("./images/bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .gallery {
@@ -45,7 +45,6 @@ body {
 
 .gallery-item {
   height: 300px;
-  opacity: 0.4;
   position: absolute;
   transition: all 0.3s ease-in-out;
   width: 160px;
@@ -74,43 +73,49 @@ body {
 .gallery-item.gallery-item-previous {
   left: 30%;
   transform: translateX(-50%);
+  filter: brightness(0.5);
 }
 
 .gallery-item.gallery-item-next {
   left: 70%;
   transform: translateX(-50%);
+  filter: brightness(0.5);
 }
 
 .gallery-item.gallery-item-first {
   left: 15%;
   transform: translateX(-50%);
+  filter: brightness(0.3);
 }
 
 .gallery-item.gallery-item-last {
   left: 85%;
   transform: translateX(-50%);
+  filter: brightness(0.3);
 }
 
 .gallery-controls-previous {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 22%;
+  left: 20%;
 }
 
 .gallery-controls-next {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 78%;
+  left: 80%;
 }
 
 .gallery-controls-previous img {
   width: 180px;
+  z-index: 5;
 }
 
 .gallery-controls-next img {
   width: 180px;
+  z-index: 5;
 }
 
 .gallery-nav {
