@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: black;
 }
 
 .logo {
@@ -21,6 +20,10 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
+  background-image: url("./images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gallery {
@@ -92,22 +95,22 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 15%;
+  left: 22%;
 }
 
 .gallery-controls-next {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 85%;
+  left: 78%;
 }
 
 .gallery-controls-previous img {
-  width: 70px;
+  width: 180px;
 }
 
 .gallery-controls-next img {
-  width: 70px;
+  width: 180px;
 }
 
 .gallery-nav {
