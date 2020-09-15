@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   .containermob {
     display: none;
   }
@@ -201,7 +201,12 @@
   }
   body {
     margin: 0;
+    background-image: url("./images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #000000;
+    background-attachment: fixed;
   }
   .containermob {
     width: 100vw;
@@ -215,7 +220,7 @@
     margin-top: 40px;
   }
   .logo img {
-    height: 50%;
+    height: 65%;
   }
   .cards a {
     display: flex;
